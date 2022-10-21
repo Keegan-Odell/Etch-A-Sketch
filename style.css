@@ -14,4 +14,5 @@ div#container {
 div.square {
 	width: 31.25px;
 	height: 31.25px;
+	background-color: pink;
 }
