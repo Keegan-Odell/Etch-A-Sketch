@@ -7,10 +7,24 @@
 		<link rel="Stylesheet" href="style.css" />
 		<script src="script.js" defer></script>
 		<title>Etch-A-Sketch</title>
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 	</head>
 	<body>
 		<h1>Etch-A-Sketch</h1>
 		<main>
+			<div id="menu">
+				<input
+					type="color"
+					id="colorSelection"
+					name="colorSelection"
+					value="#000000"
+				/>
+				<label for="colorSelection">Choose your color!</label>
+				<button id="eraser">Eraser</button>
+				<button id="size">Change Size</button>
+				<button id="rainbow">Suprise Color</button>
+				<button id="clear">Clear Canvas</button>
+			</div>
 			<div id="container"></div>
 		</main>
 	</body>
